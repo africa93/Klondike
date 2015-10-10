@@ -8,7 +8,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class BoardTest {
-	private Board board;
 	private Suit[] suits;
 	private Straight[] straights;
 	private ArrayList<Card> deck;
@@ -16,7 +15,6 @@ public class BoardTest {
 	
 	@Before
 	public void init(){
-		board = new Board();
 		suits = new Suit[4];
 		suits[0] = new Suit(TypeOfSuit.coins);
 		suits[1] = new Suit(TypeOfSuit.cups);
